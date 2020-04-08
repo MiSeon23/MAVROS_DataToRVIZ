@@ -9,3 +9,24 @@ Recieved Data
    
 Created Data
    - EulerAngles ( roll, pitch, yaw )(rad)
+
+---
+
+#### HOW TO BUILD
+
+```
+git clone https://github.com/MiSeon23/MAVROS_DataToRviz
+
+ship to <your_workspace>
+
+catkin_make
+```
+
+
+#### HOW TO RUN
+
+```
+roscore
+
+rosrun debug_drone getPosition
+```
